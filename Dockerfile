@@ -1,4 +1,4 @@
-FROM vcatechnology/fedora-c:24
+FROM vcatechnology/fedora-ci:24
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
