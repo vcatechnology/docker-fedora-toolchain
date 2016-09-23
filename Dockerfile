@@ -27,4 +27,57 @@ RUN dnf install -y \
   qt-devel \
   yasm \
   libjpeg-turbo-devel \
-  opencv-devel
+  opencv-devel \
+  libicu-devel \
+  boost-devel \
+  jansson-devel \
+  openssl-devel \
+  flex \
+  bison \
+  libntlm-devel \
+  tinyxml-devel \
+  libffi-devel \
+  xz-devel \
+  xz-lzma-compat \
+  libxml2-devel \
+  gettext-devel \
+  glib2-devel \
+  sqlite-devel \
+  intltool \
+  libsoup-devel \
+  gmp-devel \
+  nettle-devel \
+  orc-compiler \
+  orc-devel \
+  gstreamer1-devel \
+  gstreamer1-plugins-base-devel \
+  gstreamer1-plugins-good \
+  gstreamer1-rtsp-server-devel \
+  libsigc++20-devel \
+  libidn-devel \
+  gnutls-devel \
+  libcurl-devel \
+  libattr-devel \
+  libcap-devel \
+  libuuid-devel \
+  libblkid-devel \
+  libmount-devel \
+  systemd-devel \
+  libgudev-devel \
+  dbus-devel \
+  ncurses-devel \
+  ncurses-term \
+  dialog-devel \
+  popt-devel \
+  libgpg-error-devel \
+  libgcrypt-devel \
+  alsa-lib-devel \
+  alsa-utils \
+  libuv-devel \
+  libndp-devel \
+  nodejs \
+  npm \
+  nspr-devel \
+  python-devel \
+  nasm \
+  pixman-devel
