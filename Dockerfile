@@ -2,7 +2,7 @@ FROM vcatechnology/fedora-ci:24
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
-RUN dnf install -y \
+RUN sudo dnf install -y \
   gcc \
   gcc-c++ \
   libtool \
