@@ -81,3 +81,5 @@ RUN sudo dnf install -y \
   python-devel \
   nasm \
   pixman-devel
+
+RUN sudo pip install pystache requests pytz
