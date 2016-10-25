@@ -82,6 +82,7 @@ RUN sudo dnf install -y \
   nasm \
   pixman-devel \
   pam-devel \
-  libnl3-devel
-
-RUN sudo pip install pystache requests pytz
+  libnl3-devel \
+  pystache \
+  python-requests \
+  pytz
