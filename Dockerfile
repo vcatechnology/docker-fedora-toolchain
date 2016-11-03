@@ -85,6 +85,8 @@ RUN sudo dnf install -y \
   libnl3-devel \
   pystache \
   python-requests \
-  pytz
+  pytz \
+  clang \
+  llvm
 
 RUN sudo pip install cpplint
