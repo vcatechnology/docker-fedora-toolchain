@@ -87,6 +87,7 @@ RUN sudo dnf install -y \
   python-requests \
   pytz \
   clang \
-  llvm
+  llvm \
+  llvm-devel
 
 RUN sudo pip install cpplint
