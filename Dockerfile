@@ -1,8 +1,8 @@
-FROM vcatechnology/fedora-ci:24
+FROM vcatechnology/fedora-ci
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Install useful packages
-RUN sudo dnf install -y \
+RUN sudo vca-install-package \
   gcc \
   gcc-c++ \
   libtool \
