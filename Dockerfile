@@ -1,4 +1,4 @@
-FROM vcatechnology/fedora-ci
+FROM vcatechnology/fedora-ci:25
 MAINTAINER VCA Technology <developers@vcatechnology.com>
 
 # Echo the PATH
