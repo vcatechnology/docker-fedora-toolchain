@@ -109,4 +109,4 @@ RUN sudo vca-install-package \
   llvm \
   llvm-devel
 
-RUN sudo pip install cpplint
+RUN pip install --user sseclient cpplint
