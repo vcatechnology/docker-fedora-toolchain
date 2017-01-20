@@ -107,6 +107,7 @@ RUN sudo vca-install-package \
   pytz \
   clang \
   llvm \
-  llvm-devel
+  llvm-devel \
+  gperf
 
 RUN pip install --user sseclient cpplint
