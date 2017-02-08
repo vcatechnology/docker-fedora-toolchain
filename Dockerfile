@@ -108,6 +108,7 @@ RUN sudo vca-install-package \
   clang \
   llvm \
   llvm-devel \
-  gperf
+  gperf \
+  python-coverage
 
-RUN pip install --user sseclient cpplint
+RUN pip install --user sseclient cpplint backports.functools_lru_cache
