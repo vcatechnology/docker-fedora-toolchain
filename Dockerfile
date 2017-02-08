@@ -97,6 +97,7 @@ RUN sudo vca-install-package \
   libndp-devel \
   nodejs \
   npm \
+  pkgconfig \
   nspr-devel \
   python-devel \
   nasm \
