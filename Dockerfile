@@ -92,6 +92,7 @@ RUN sudo vca-install-package \
   libgcrypt-devel \
   alsa-lib-devel \
   alsa-utils \
+  bzip2-devel \
   libuv-devel \
   libndp-devel \
   nodejs \
