@@ -37,7 +37,7 @@ RUN sudo vca-install-package \
   dbus-devel \
   dialog-devel \
   doxygen \
-  eigen \
+  eigen3 \
   flex \
   gcc \
   gcc-c++ \
