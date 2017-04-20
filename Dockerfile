@@ -126,9 +126,7 @@ RUN sudo vca-install-package \
   systemd-udev \
   tinyxml-devel \
   uuid \
-  uuuid \
   valgrind \
-  vde2 \
   xz-devel \
   xz-lzma-compat \
   yasm \
