@@ -22,95 +22,95 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install useful packages
 RUN sudo vca-install-package \
-  gcc \
-  gcc-c++ \
-  libtool \
-  procps-ng \
-  make \
-  rpm-build \
-  rpmlint \
-  p7zip \
-  libitm-devel \
-  doxygen \
-  graphviz \
-  mscgen \
+  alsa-lib-devel \
+  alsa-utils \
+  bison \
+  boost-devel \
+  bzip2-devel \
   check-devel \
-  valgrind \
+  clang \
+  cmake \
   cppcheck \
   cppunit-devel \
-  cmake \
-  pcre-devel \
-  zlib-devel \
-  protobuf-devel \
-  pandoc \
-  qt-devel \
-  yasm \
-  libjpeg-turbo-devel \
-  opencv-devel \
-  libicu-devel \
-  boost-devel \
-  jansson-devel \
-  openssl-devel \
+  dbus-devel \
+  dialog-devel \
+  doxygen \
   flex \
-  bison \
-  libntlm-devel \
-  tinyxml-devel \
-  libffi-devel \
-  xz-devel \
-  xz-lzma-compat \
-  libxml2-devel \
+  gcc \
+  gcc-c++ \
   gettext-devel \
   glib2-devel \
-  sqlite-devel \
-  intltool \
-  libsoup-devel \
   gmp-devel \
-  nettle-devel \
-  orc-compiler \
-  orc-devel \
+  gnutls-devel \
+  gperf \
+  graphviz \
   gstreamer1-devel \
   gstreamer1-plugins-base-devel \
   gstreamer1-plugins-good \
   gstreamer1-rtsp-server-devel \
-  libsigc++20-devel \
-  libidn-devel \
-  gnutls-devel \
-  libcurl-devel \
+  intltool \
+  jansson-devel \
   libattr-devel \
-  libcap-devel \
-  libuuid-devel \
   libblkid-devel \
-  libmount-devel \
-  systemd-devel \
-  libgudev-devel \
-  dbus-devel \
-  ncurses-devel \
-  ncurses-term \
-  dialog-devel \
-  popt-devel \
-  libgpg-error-devel \
+  libcap-devel \
+  libcurl-devel \
+  libffi-devel \
   libgcrypt-devel \
-  alsa-lib-devel \
-  alsa-utils \
-  bzip2-devel \
-  libuv-devel \
+  libgpg-error-devel \
+  libgudev-devel \
+  libicu-devel \
+  libidn-devel \
+  libitm-devel \
+  libjpeg-turbo-devel \
+  libmount-devel \
   libndp-devel \
-  nodejs \
-  npm \
-  pkgconfig \
-  nspr-devel \
-  python-devel \
-  nasm \
-  pixman-devel \
-  pam-devel \
   libnl3-devel \
-  pystache \
-  python-requests \
-  pytz \
-  clang \
+  libntlm-devel \
+  libsigc++20-devel \
+  libsoup-devel \
+  libtool \
+  libuuid-devel \
+  libuv-devel \
+  libxml2-devel \
   llvm \
   llvm-devel \
-  gperf \
-  python-coverage
+  make \
+  mscgen \
+  nasm \
+  ncurses-devel \
+  ncurses-term \
+  nettle-devel \
+  nodejs \
+  npm \
+  nspr-devel \
+  opencv-devel \
+  openssl-devel \
+  orc-compiler \
+  orc-devel \
+  p7zip \
+  pam-devel \
+  pandoc \
+  pcre-devel \
+  pixman-devel \
+  pkgconfig \
+  popt-devel \
+  procps-ng \
+  protobuf-devel \
+  pystache \
+  python-coverage \
+  python-devel \
+  python-requests \
+  pytz \
+  qt-devel \
+  rpm-build \
+  rpmlint \
+  sqlite-devel \
+  systemd-devel \
+  tinyxml-devel \
+  valgrind \
+  xz-devel \
+  xz-lzma-compat \
+  yasm \
+  zlib-devel
 
 RUN pip install --user sseclient cpplint backports.functools_lru_cache
