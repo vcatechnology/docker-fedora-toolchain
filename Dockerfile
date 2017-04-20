@@ -116,7 +116,7 @@ RUN sudo vca-install-package \
   pytz \
   qt-devel \
   rapidjson-devel \
-  rapidxml \
+  rapidxml-devel \
   rpm-build \
   rpmlint \
   sqlite-devel \
