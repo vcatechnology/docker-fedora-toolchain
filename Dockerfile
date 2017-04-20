@@ -22,8 +22,10 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install useful packages
 RUN sudo vca-install-package \
+  aalib-devel \
   alsa-lib-devel \
   alsa-utils \
+  bc \
   bison \
   boost-devel \
   bzip2-devel \
@@ -35,24 +37,32 @@ RUN sudo vca-install-package \
   dbus-devel \
   dialog-devel \
   doxygen \
+  eigen \
   flex \
   gcc \
   gcc-c++ \
+  gdisk \
   gettext-devel \
   glib2-devel \
   gmp-devel \
   gnutls-devel \
+  gnu-efi-devel \
   gperf \
   graphviz \
+  gsoap-devel \
   gstreamer1-devel \
   gstreamer1-plugins-base-devel \
   gstreamer1-plugins-good \
   gstreamer1-rtsp-server-devel \
   intltool \
+  isl-devel \
   jansson-devel \
+  libatomic \
   libattr-devel \
+  libasan \
   libblkid-devel \
   libcap-devel \
+  libcap-ng-devel \
   libcurl-devel \
   libffi-devel \
   libgcrypt-devel \
@@ -66,9 +76,12 @@ RUN sudo vca-install-package \
   libndp-devel \
   libnl3-devel \
   libntlm-devel \
+  libpciaccess-devel \
   libsigc++20-devel \
   libsoup-devel \
   libtool \
+  libubsan \
+  libusbx-devel \
   libuuid-devel \
   libuv-devel \
   libxml2-devel \
@@ -102,12 +115,20 @@ RUN sudo vca-install-package \
   python-requests \
   pytz \
   qt-devel \
+  rapidjson \
+  rapidxml \
   rpm-build \
   rpmlint \
   sqlite-devel \
+  stress \
+  subunit-filters \
   systemd-devel \
+  systemd-udev \
   tinyxml-devel \
+  uuid \
+  uuuid \
   valgrind \
+  vde2 \
   xz-devel \
   xz-lzma-compat \
   yasm \
