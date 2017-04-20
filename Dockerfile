@@ -115,7 +115,7 @@ RUN sudo vca-install-package \
   python-requests \
   pytz \
   qt-devel \
-  rapidjson \
+  rapidjson-devel \
   rapidxml \
   rpm-build \
   rpmlint \
