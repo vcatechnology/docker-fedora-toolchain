@@ -22,6 +22,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 # Install useful packages
 RUN sudo vca-install-package \
+  aalib \
   aalib-devel \
   alsa-lib-devel \
   alsa-utils \
@@ -73,6 +74,7 @@ RUN sudo vca-install-package \
   libitm-devel \
   libjpeg-turbo-devel \
   libmount-devel \
+  libmpc-devel \
   libndp-devel \
   libnl3-devel \
   libntlm-devel \
@@ -88,6 +90,7 @@ RUN sudo vca-install-package \
   llvm \
   llvm-devel \
   make \
+  mpfr-devel \
   mscgen \
   nasm \
   ncurses-devel \
@@ -114,6 +117,7 @@ RUN sudo vca-install-package \
   python-devel \
   python-requests \
   pytz \
+  qemu \
   qt-devel \
   rapidjson-devel \
   rapidxml-devel \
@@ -126,6 +130,7 @@ RUN sudo vca-install-package \
   systemd-udev \
   tinyxml-devel \
   uuid \
+  uuidd \
   valgrind \
   xz-devel \
   xz-lzma-compat \
