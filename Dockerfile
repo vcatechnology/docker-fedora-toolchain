@@ -29,6 +29,7 @@ RUN sudo vca-install-package \
   bc \
   bison \
   boost-devel \
+  boost-static \
   bzip2-devel \
   check-devel \
   clang \
@@ -38,6 +39,7 @@ RUN sudo vca-install-package \
   dbus-devel \
   dialog-devel \
   doxygen \
+  e2fsprogs-devel \
   eigen3-devel \
   elfutils-devel \
   elfutils-libelf-devel \
@@ -84,6 +86,7 @@ RUN sudo vca-install-package \
   libpciaccess-devel \
   libsigc++20-devel \
   libsoup-devel \
+  libss-devel \
   libtool \
   libubsan \
   libusbx-devel \
@@ -104,6 +107,7 @@ RUN sudo vca-install-package \
   nspr-devel \
   opencv-devel \
   openssl-devel \
+  openssl-static \
   orc-compiler \
   orc-devel \
   p7zip \
