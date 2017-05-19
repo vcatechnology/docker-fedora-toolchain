@@ -49,6 +49,7 @@ RUN sudo vca-install-package \
   gdisk \
   gettext-devel \
   glib2-devel \
+  glibc-nss-devel \
   gmp-devel \
   gnutls-devel \
   gnu-efi-devel \
