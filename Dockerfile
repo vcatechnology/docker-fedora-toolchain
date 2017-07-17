@@ -121,7 +121,6 @@ RUN sudo vca-install-package \
   procps-ng \
   protobuf-devel \
   pystache \
-  python-coverage \
   python-devel \
   python-requests \
   pytz \
@@ -145,4 +144,4 @@ RUN sudo vca-install-package \
   yasm \
   zlib-devel
 
-RUN pip install --user sseclient cpplint backports.functools_lru_cache
+RUN pip install --user sseclient cpplint backports.functools_lru_cache coverage
