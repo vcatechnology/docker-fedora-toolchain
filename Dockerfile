@@ -33,6 +33,7 @@ RUN sudo vca-install-package \
   bzip2-devel \
   check-devel \
   clang \
+  clang-tools-extra \
   cmake \
   cppcheck \
   cppunit-devel \
