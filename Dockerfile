@@ -39,6 +39,7 @@ RUN sudo vca-install-package \
   dbus-devel \
   dialog-devel \
   doxygen \
+  e2fsprogs \
   e2fsprogs-devel \
   eigen3-devel \
   elfutils-devel \
