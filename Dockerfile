@@ -64,6 +64,7 @@ RUN sudo vca-install-package \
   gstreamer1-plugins-bad-free-devel \
   gstreamer1-rtsp-server-devel \
   intltool \
+  iptables \
   isl-devel \
   jansson-devel \
   libatomic \
