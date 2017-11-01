@@ -38,7 +38,10 @@ RUN sudo vca-install-package \
   cppcheck \
   cppunit-devel \
   dbus-devel \
+  dfu-util \
   dialog-devel \
+  dnsmasq \
+  dosfstools \
   doxygen \
   e2fsprogs \
   e2fsprogs-devel \
@@ -48,6 +51,8 @@ RUN sudo vca-install-package \
   flex \
   gcc \
   gcc-c++ \
+  gdb \
+  gdbserver \
   gdisk \
   gettext-devel \
   glib2-devel \
@@ -63,10 +68,14 @@ RUN sudo vca-install-package \
   gstreamer1-plugins-base-devel \
   gstreamer1-plugins-good \
   gstreamer1-rtsp-server-devel \
+  gstreamer1-vaapi \
+  ilmbase-devel \
   intltool \
   iptables \
   isl-devel \
   jansson-devel \
+  jasper-devel \
+  js-devel \
   libasan \
   libatomic \
   libattr-devel \
@@ -91,11 +100,14 @@ RUN sudo vca-install-package \
   libsigc++20-devel \
   libsoup-devel \
   libss-devel \
+  libtiff-devel \
   libtool \
   libubsan \
   libusbx-devel \
   libuuid-devel \
   libuv-devel \
+  libva-devel \
+  libwebp-devel \
   libxml2-devel \
   llvm \
   llvm-devel \
@@ -106,10 +118,12 @@ RUN sudo vca-install-package \
   ncurses-devel \
   ncurses-term \
   nettle-devel \
+  NetworkManager \
   nodejs \
   npm \
   nspr-devel \
   opencv-devel \
+  OpenEXR-devel \
   openssl-devel \
   openssl-static \
   orc-compiler \
@@ -120,9 +134,12 @@ RUN sudo vca-install-package \
   pcre-devel \
   pixman-devel \
   pkgconfig \
+  polkit-devel \
+  polkit \
   popt-devel \
   procps-ng \
   protobuf-devel \
+  protobuf-lite-devel \
   pystache \
   python-devel \
   python-requests \
