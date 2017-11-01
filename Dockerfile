@@ -53,23 +53,23 @@ RUN sudo vca-install-package \
   glib2-devel \
   glibc-nss-devel \
   gmp-devel \
-  gnutls-devel \
   gnu-efi-devel \
+  gnutls-devel \
   gperf \
   graphviz \
   gsoap-devel \
   gstreamer1-devel \
+  gstreamer1-plugins-bad-free-devel \
   gstreamer1-plugins-base-devel \
   gstreamer1-plugins-good \
-  gstreamer1-plugins-bad-free-devel \
   gstreamer1-rtsp-server-devel \
   intltool \
   iptables \
   isl-devel \
   jansson-devel \
+  libasan \
   libatomic \
   libattr-devel \
-  libasan \
   libblkid-devel \
   libcap-devel \
   libcap-ng-devel \
