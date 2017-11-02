@@ -52,7 +52,7 @@ RUN sudo vca-install-package \
   gcc \
   gcc-c++ \
   gdb \
-  gdbserver \
+  gdb-gdbserver \
   gdisk \
   gettext-devel \
   glib2-devel \
