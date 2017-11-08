@@ -76,6 +76,7 @@ RUN sudo vca-install-package \
   jansson-devel \
   jasper-devel \
   js-devel \
+  keyutils-libs-devel \
   libasan \
   libatomic \
   libattr-devel \
